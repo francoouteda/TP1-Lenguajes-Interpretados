@@ -1,0 +1,29 @@
+#menu {
+    float: right; 
+    width: 150px;
+}
+
+#contenido {
+    float: right;
+    width: 550px;
+}
+
+#pie {
+    clear: both; 
+}
+
+#menu {
+    display: none;
+}
+
+#contenido {
+    width: 100%; 
+}
+
+#pie {
+    display: none;
+}
+
+#pie {
+    display: none;
+}
