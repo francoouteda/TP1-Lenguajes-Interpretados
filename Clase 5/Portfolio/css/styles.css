@@ -1,0 +1,36 @@
+/* Compensar la navbar fija */
+body {
+    padding-top: 56px;
+}
+
+/* Personalización de colores y efectos */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+/* Efecto en las tarjetas de proyectos */
+.project-card {
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Ajustes para Mobile-First */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
